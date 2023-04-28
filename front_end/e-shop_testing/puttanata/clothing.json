@@ -1,5 +1,4 @@
-{
-    "clothing": [
+[
         {
             "name": "T-shirt Verdesca nera",
             "description": "T-shirt 100% cotone con stampa serigrafata",
@@ -97,5 +96,4 @@
             ]
         }
         
-    ]
-}
+]

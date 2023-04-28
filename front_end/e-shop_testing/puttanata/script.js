@@ -1,8 +1,9 @@
-function main() {
 
-    $.getJSON("./products.json", function (data) {
-        console.log(data);
-      })
+
+console.log(users);
+
+
+/*
 
     // element (not necessarily a div) with id content
     const contentElement = document.querySelector('#content');
@@ -28,6 +29,4 @@ function main() {
     document.querySelector('#content').append(newDiv);
 
     const titleElement = document.createElement('h1').append('Titolo in h1');
-
-
-}
+    */
