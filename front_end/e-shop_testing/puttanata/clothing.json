@@ -1,0 +1,101 @@
+{
+    "clothing": [
+        {
+            "name": "T-shirt Verdesca nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "category":"clothing",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": [
+                "t-shirt_verdesca_nera_1.jpg",
+                "t-shirt_verdesca_nera_2.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt Verdesca bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "category":"clothing",
+            "price": 15.00,
+            "stock": 13,
+            "pictures": [
+                "t-shirt_verdesca_bianca_1.jpg",
+                "t-shirt_verdesca_bianca_2.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt Verdesca bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "category":"clothing",
+            "price": 15.00,
+            "stock": 13,
+            "pictures": [
+                "t-shirt_verdesca_bianca_1.jpg",
+                "t-shirt_verdesca_bianca_2.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt Verdesca rossa",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "category":"clothing",
+            "price": 15.00,
+            "stock": 7,
+            "pictures": [
+                "t-shirt_verdesca_rossa_1.jpg",
+                "t-shirt_verdesca_rossa_2.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "category":"clothing",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "t-shirt_latte_nera_1.jpg",
+                "t-shirt_latte_nera_2.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt Duck's dookie nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "category":"clothing",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": [
+                "t-shirt_ducks_nera_1.jpg",
+                "t-shirt_ducks_nera_2.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt Duck's dookie bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "category":"clothing",
+            "price": 15.00,
+            "stock": 14,
+            "pictures": [
+                "t-shirt_ducks_bianca_1.jpg",
+                "t-shirt_ducks_bianca_2.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie Verdesca nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "category":"clothing",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "hoodie_verdesca_nera_1.jpg",
+                "hoodie_verdesca_nera_2.jpg"
+            ]
+        }
+        
+    ]
+}

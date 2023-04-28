@@ -1,0 +1,91 @@
+{
+    "music":[
+        {
+            "name": "Carta vetrata",
+            "year": 2023,
+            "format":"cd",
+            "tracklist": [ 
+                "gita al lido",
+                "non cambiare mai",
+                "un'altra notte",
+                "il mio amico extraterrestre"
+            ],
+            "band": "Verdesca",
+            "price": 10.00,
+            "stock": 22,
+            "pictures": "cd_carta_vetrata.jpg"
+        },
+        {
+            "name": "Carta vetrata",
+            "year": 2023,
+            "format":"vinyl",
+            "tracklist": [ 
+                "gita al lido",
+                "non cambiare mai",
+                "un'altra notte",
+                "il mio amico extraterrestre"
+            ],
+            "band": "Verdesca",
+            "price": 20.00,
+            "stock": 11,
+            "pictures": "vinyl_carta_vetrata.jpg"
+        },
+        {
+            "name": "Carta vetrata",
+            "year": 2023,
+            "format":"cassette",
+            "tracklist": [ 
+                "gita al lido",
+                "non cambiare mai",
+                "un'altra notte",
+                "il mio amico extraterrestre"
+            ],
+            "band": "Verdesca",
+            "price": 10.00,
+            "stock": 11,
+            "pictures": "cassette_carta_vetrata.jpg"
+        },
+        {
+            "name": "Antiglobalizzazione",
+            "year": 2004,
+            "format":"cd",
+            "tracklist": [ 
+                "Ragazza americana",
+                "Alberto",
+                "Antiglobalizzazione"
+            ],
+            "band": "Latte+",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": "cd_antiglobalizzazione.jpg"
+        },
+        {
+            "name": "Antiglobalizzazione",
+            "year": 2004,
+            "format":"cassette",
+            "tracklist": [ 
+                "Ragazza americana",
+                "Alberto",
+                "Antiglobalizzazione"
+            ],
+            "band": "Latte+",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": "cassette_antiglobalizzazione.jpg"
+        },
+        {
+            "name": "becco",
+            "year": 2018,
+            "format":"cd",
+            "tracklist": [ 
+                "duck punk",
+                "stay away",
+                "streetlights"
+            ],
+            "band": "Duck's dookie",
+            "price": 10.00,
+            "stock": 34,
+            "pictures": "cd_becco.jpg"
+        }
+    ]
+}
