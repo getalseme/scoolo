@@ -26,7 +26,207 @@
             "price": 17.90,
             "stock": 3,
             "pictures": [
-                "t-shirt_latte+_black.jpg"
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ bianca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_white.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt Latte+ nera",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_black.JPG"
             ]
         },
         {
