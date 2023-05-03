@@ -6,9 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Uderground shop</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="myStyle.css">
         <script src="https://unpkg.com/vue@3"></script>
     </head>
-    <body style="padding-top: 110px;">
+    <body style="padding-top: 90px;">
       <header>
           <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
               <div class="container-fluid">
@@ -32,10 +33,36 @@
               </div>
             </nav>
       </header>
-      <div id="testDiv">
-        <div class="bg-image hover-zoom">
-          <img src="img/clothing.jpg" class="w-100"/> 
+      
+      <div class="img_btn_div">
+        <img src="img/music.jpg" alt="music">
+        <div id="music_text" class="categories_inner_text">
+          <h4>Music</h4>
+          <p>In this section you can explore all the band's wearable merch</p>
         </div>
+        <a href="music.html">
+          <button id="music_btn" class="btn">Go to music section</button>
+        </a>
+      </div>
+      <div class="img_btn_div">
+        <img src="img/clothing.jpg" alt="clothing">
+        <div id="clothing_text" class="categories_inner_text">
+          <h4>Clothing</h4>
+          <p>In this section you can explore all the band's wearable merch</p>
+        </div>
+        <a href="clothing.html">
+          <button id="clothing_btn" class="btn">Go to clothing section</button>
+        </a>
+      </div>
+      <div class="img_btn_div">
+        <img src="img/accessories.jpg" alt="accessories">
+        <div id="accessories_text" class="categories_inner_text">
+          <h4>Accessories</h4>
+          <p>In this section you can explore all the band's wearable merch</p>
+        </div>
+        <a href="clothing.html">
+          <button id="accessories_btn" class="btn">Go to clothing section</button>
+        </a>
       </div>
     </body>
 </html>

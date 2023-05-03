@@ -1,7 +1,6 @@
-{
-    "music":[
+[
         {
-            "name": "Carta vetrata",
+            "name": "Carta vetrata - CD",
             "year": 2023,
             "format":"cd",
             "tracklist": [ 
@@ -13,12 +12,27 @@
             "band": "Verdesca",
             "price": 10.00,
             "stock": 22,
-            "pictures": "cd_carta_vetrata.jpg"
+            "pictures": "./img/music/verdesca_cd.jpg"
         },
         {
-            "name": "Carta vetrata",
+            "name": "Carta vetrata - Vinile",
             "year": 2023,
             "format":"vinyl",
+            "tracklist": [
+                "gita al lido",
+                "non cambiare mai",
+                "un'altra notte",
+                "il mio amico extraterrestre"
+            ],
+            "band": "Verdesca",
+            "price": 20.00,
+            "stock": 11,
+            "pictures": "./img/music/verdesca_vinyl.jpg"
+        },
+        {
+            "name": "Carta vetrata - Cassette",
+            "year": 2023,
+            "format":"cassette",
             "tracklist": [ 
                 "gita al lido",
                 "non cambiare mai",
@@ -28,25 +42,10 @@
             "band": "Verdesca",
             "price": 20.00,
             "stock": 11,
-            "pictures": "vinyl_carta_vetrata.jpg"
+            "pictures": "./img/music/verdesca_cassette.jpg"
         },
         {
-            "name": "Carta vetrata",
-            "year": 2023,
-            "format":"cassette",
-            "tracklist": [ 
-                "gita al lido",
-                "non cambiare mai",
-                "un'altra notte",
-                "il mio amico extraterrestre"
-            ],
-            "band": "Verdesca",
-            "price": 10.00,
-            "stock": 11,
-            "pictures": "cassette_carta_vetrata.jpg"
-        },
-        {
-            "name": "Antiglobalizzazione",
+            "name": "Gueriglia urbana - CD",
             "year": 2004,
             "format":"cd",
             "tracklist": [ 
@@ -57,13 +56,13 @@
             "band": "Latte+",
             "price": 15.00,
             "stock": 11,
-            "pictures": "cd_antiglobalizzazione.jpg"
+            "pictures": "./img/music/latte+_cd.jpg"
         },
         {
-            "name": "Antiglobalizzazione",
+            "name": "Gueriglia urbana - Vinile",
             "year": 2004,
-            "format":"cassette",
-            "tracklist": [ 
+            "format":"vinyl",
+            "tracklist": [
                 "Ragazza americana",
                 "Alberto",
                 "Antiglobalizzazione"
@@ -71,12 +70,40 @@
             "band": "Latte+",
             "price": 15.00,
             "stock": 11,
-            "pictures": "cassette_antiglobalizzazione.jpg"
+            "pictures": "./img/music/latte+_vinyl.jpg"
         },
         {
-            "name": "becco",
+            "name": "Gueriglia urbana - Cassette",
+            "year": 2004,
+            "format":"cassette",
+            "tracklist": [
+                "Ragazza americana",
+                "Alberto",
+                "Antiglobalizzazione"
+            ],
+            "band": "Latte+",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": "./img/music/latte+_cassette.jpg"
+        },
+        {
+            "name": "becco - CD",
             "year": 2018,
             "format":"cd",
+            "tracklist": [
+                "duck punk",
+                "stay away",
+                "streetlights"
+            ],
+            "band": "Duck's dookie",
+            "price": 10.00,
+            "stock": 34,
+            "pictures": "./img/music/ducks_cd.jpg"
+        },
+        {
+            "name": "becco - Vinile",
+            "year": 2018,
+            "format":"vinyl",
             "tracklist": [ 
                 "duck punk",
                 "stay away",
@@ -85,7 +112,20 @@
             "band": "Duck's dookie",
             "price": 10.00,
             "stock": 34,
-            "pictures": "cd_becco.jpg"
+            "pictures": "./img/music/ducks_vinyl.jpg"
+        },
+        {
+            "name": "becco - Cassette",
+            "year": 2018,
+            "format":"cassette",
+            "tracklist": [
+                "duck punk",
+                "stay away",
+                "streetlights"
+            ],
+            "band": "Duck's dookie",
+            "price": 10.00,
+            "stock": 34,
+            "pictures": "./img/music/ducks_cassette.jpg"
         }
-    ]
-}
+]
