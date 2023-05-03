@@ -9,9 +9,9 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
-    <body>
+    <body style="padding-top: 110px;">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html">
                     <img src="img/logo.png" alt="" width="80" height="64" class="d-inline-block align-middle">
@@ -20,46 +20,21 @@
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="categories.html">Categories</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
                       </li>
                     </ul>
                   </div>
                 </div>
               </nav>
-        </header>
-
-        <div id="app">
-          <!--
-          <div class="sort-container mb-3">
-            <label for="sort-by" class="me-2">Sort by:</label>
-            <select id="sort-by" v-model="sortBy" @change="sortProducts">
-              <option value="artist_asc">Artist (A-Z)</option>
-              <option value="artist_desc">Artist (Z-A)</option>
-              <option value="price_asc">Price (Low to High)</option>
-              <option value="price_desc">Price (High to Low)</option>
-            </select>
-          </div>
-          -->
-          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col mb-3" v-for="product in products">
-              <div class="card h-100" style="width: 16rem;">
-                <img class="card-img-top img-fluid" :src="product.pictures[0]" style="height: 16rem; object-fit: cover;">
-                <div class="card-body">
-                  <h5 class="card-title">{{ product.name }}</h5>
-                  <p class="card-text mb-1">{{ product.band }}</p>
-                  <p class="card-text mb-1">${{ product.price }}</p>
-                  <p class="card-text mb-0">Stock: {{ product.stock }}</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        </header>  
+        <div class="bg-image" style="background-image: url('img/clothing.jpg'); background-size: cover;">
+        
         </div>
-        <script src="app.js"></script>    
     </body>
 </html>

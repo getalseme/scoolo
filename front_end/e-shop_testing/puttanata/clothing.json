@@ -1,28 +1,64 @@
 [
         {
-            "name": "T-shirt Verdesca logo bianco",
+            "name": "T-shirt bianca Verdesca",
             "description": "T-shirt 100% cotone con stampa serigrafata",
             "band": "Verdesca",
+            "color": "white",
             "price": 15.00,
             "stock": 13,
             "pictures": [
-                "t-shirt_verdesca_white.jpg"
+                "./img/clothing/t-shirt_verdesca_white.jpg"
             ]
         },
         {
-            "name": "T-shirt Verdesca logo rosso",
+            "name": "T-shirt nera Verdesca",
             "description": "T-shirt 100% cotone con stampa serigrafata",
             "band": "Verdesca",
+            "color": "black",
+            "price": 15.00,
+            "stock": 13,
+            "pictures": [
+                "./img/clothing/t-shirt_verdesca_black.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt rossa Verdesca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "color": "red",
             "price": 15.00,
             "stock": 7,
             "pictures": [
-                "t-shirt_verdesca_red.jpg"
+                "./img/clothing/t-shirt_verdesca_red.jpg"
             ]
         },
         {
-            "name": "T-shirt Latte+ nera",
+            "name": "T-shirt verde Verdesca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "color": "green",
+            "price": 15.00,
+            "stock": 7,
+            "pictures": [
+                "./img/clothing/t-shirt_verdesca_green.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt blu Verdesca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "color": "blue",
+            "price": 15.00,
+            "stock": 7,
+            "pictures": [
+                "./img/clothing/t-shirt_verdesca_blue.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt nera Latte+",
             "description": "T-shirt 100% cotone con stampa serigrafata",
             "band": "Latte+",
+            "color": "black",
             "price": 17.90,
             "stock": 3,
             "pictures": [
@@ -30,9 +66,43 @@
             ]
         },
         {
-            "name": "T-shirt Latte+ bianca",
+            "name": "T-shirt verde Latte+",
             "description": "T-shirt 100% cotone con stampa serigrafata",
             "band": "Latte+",
+            "color": "green",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_green.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt rossa Latte+",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "color": "red",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_red.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt blu Latte+",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "color": "blue",
+            "price": 17.90,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/t-shirt_latte+_blue.JPG"
+            ]
+        },
+        {
+            "name": "T-shirt bianca Latte+",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Latte+",
+            "color":"white",
             "price": 17.90,
             "stock": 3,
             "pictures": [
@@ -40,223 +110,146 @@
             ]
         },
         {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ nera",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_black.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Latte+ bianca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
-            "band": "Latte+",
-            "price": 17.90,
-            "stock": 3,
-            "pictures": [
-                "./img/clothing/t-shirt_latte+_white.JPG"
-            ]
-        },
-        {
-            "name": "T-shirt Duck's dookie nera",
+            "name": "T-shirt nera Duck's dookie",
             "description": "T-shirt 100% cotone con stampa serigrafata",
             "band": "Duck's dookie",
+            "color":"black",
             "price": 15.00,
             "stock": 11,
             "pictures": [
-                "t-shirt_ducks_black.jpg"
+                "./img/clothing/t-shirt_ducks_black.jpg"
             ]
         },
         {
-            "name": "Hoodie Verdesca nera",
+            "name": "T-shirt rossa Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"red",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": [
+                "./img/clothing/t-shirt_ducks_red.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt blu Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"blue",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": [
+                "./img/clothing/t-shirt_ducks_blue.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt bianca Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"white",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": [
+                "./img/clothing/t-shirt_ducks_white.jpg"
+            ]
+        },
+        {
+            "name": "T-shirt verde Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"green",
+            "price": 15.00,
+            "stock": 11,
+            "pictures": [
+                "./img/clothing/t-shirt_ducks_green.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie grigia Verdesca",
             "description": "T-shirt 100% cotone con stampa serigrafata",
             "band": "Verdesca",
+            "color":"gray",
             "price": 30.00,
             "stock": 3,
             "pictures": [
-                "hoodie_verdesca_black.jpg"
+                "./img/clothing/hoodie_verdesca_gray.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie blu Verdesca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "color":"blue",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_verdesca_blue.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie red Verdesca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "color":"red",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_verdesca_red.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie nera Verdesca",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Verdesca",
+            "color":"black",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_verdesca_black.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie nera Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"black",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_ducks_black.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie red Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"red",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_ducks_red.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie blu Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"blue",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_ducks_blue.jpg"
+            ]
+        },
+        {
+            "name": "Hoodie grigia Duck's dookie",
+            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "band": "Duck's dookie",
+            "color":"gray",
+            "price": 30.00,
+            "stock": 3,
+            "pictures": [
+                "./img/clothing/hoodie_ducks_gray.jpg"
             ]
         }
 ]

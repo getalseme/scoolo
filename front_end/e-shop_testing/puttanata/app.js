@@ -1,5 +1,6 @@
-/*
-var app = new Vue({
+
+/* 
+ var app = new Vue({
     el: '#app',
     data: {
       products: [], // your products array
@@ -70,9 +71,8 @@ var app = new Vue({
             }
           });
     },
-  });
+   });
 */
-
 var app = new Vue({
     el: '#app',
     data: {
