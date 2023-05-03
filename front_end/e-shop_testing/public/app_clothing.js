@@ -74,23 +74,29 @@
    });
 */
 var app = new Vue({
-    el: '#app',
-    data: {
-      products: []
-    },
-    mounted() {
-      $.ajax({
-        url: 'http://localhost:8000/clothing',
-        type: 'GET',
-        dataType: 'json',
-        success: function(data) {
-          // Do something with the data
-          console.log(data);
-          app.products = data;
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-          console.log(`Error loading file: ${textStatus} - ${errorThrown}`);
-        }
-      });
-    }
-  });
+  el: '#app',
+  data: {
+    products: []
+  },
+  mounted() {
+    $.ajax({
+      url: 'http://localhost:8000/clothing',
+      type: 'GET',
+      dataType: 'json',
+      success: function(data) {
+        console.log(data);
+        app.products = data;
+        Vue.nextTick(function() {
+          // Set unique IDs for each card and modal
+          app.products.forEach(function(product, index) {
+            $('#card-' + index).attr('id', 'card-' + product.id);
+            $('#modal-' + index).attr('id', 'modal-' + product.id);
+          });
+        });
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+        console.log(`Error loading file: ${textStatus} - ${errorThrown}`);
+      }
+    });
+  }
+});
