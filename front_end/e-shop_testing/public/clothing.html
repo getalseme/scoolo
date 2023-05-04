@@ -12,6 +12,8 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body style="padding-top: 110px;">
+
+        <!-- NAVBAR -->
         <header>
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
@@ -36,54 +38,41 @@
               </nav>
         </header>
 
-        <!-- Background image -->
+        <!-- PAGE TITLE -->
+        <div class="pageTitle"><b>Clothing</b></div>
+
+        <!-- CARDS -->
         <div id="underHeader">
-          <div id="app" style="margin-left: 7%;">
-            <!-- 
-            <div class="sort-container mb-3">
-              <label for="sort-by" class="me-2">Sort by:</label>
-              <select id="sort-by" v-model="sortBy" @change="sortProducts">
-                <option value="artist_asc">Artist (A-Z)</option>
-                <option value="artist_desc">Artist (Z-A)</option>
-                <option value="price_asc">Price (Low to High)</option>
-                <option value="price_desc">Price (High to Low)</option>
-              </select>
-            </div>
-          -->
+          <div id="app">
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col mb-3" v-for="(product, index) in products">
-                <div class="card h-100" style="width: 16rem; background-color: rgba(150, 150, 150, 0.8);">
+                <div class="card h-100" style="width: 17rem; background-color: rgba(150, 150, 150, 0.8);">
                   <img class="card-img-top img-fluid" :src="product.pictures[0]" style="height: 16rem; object-fit: cover;">
                   <div class="card-body">
                     <h5 class="card-title">{{ product.name }}</h5>
                     <p class="card-text mb-1">{{ product.band }}</p>
-                    <p class="card-text mb-1">${{ product.price }}</p>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" :data-target="'#exampleModal-' + index">
+                    <button type="button" class="btn btn-dark" data-toggle="modal" :data-target="'#exampleModal-' + index">
                       <i>info</i>
                     </button>
                     <div class="modal fade" :id="'exampleModal-' + index" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content bg-fusion-900 text-white">
                           <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">{{ product.name }}</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                              <span aria-hidden="true">&times;</span>
-                            </button>
                           </div>
                           <div class="modal-body">
-                            <p class="card-text mb-1">band: {{ product.band }}</p>
-                            <p class="card-text mb-1">stock: {{ product.stock }}</p>
-                            <p class="card-text mb-1">Cescription:<br> {{ product.description }}</p>
-                            <p class="card-text mb-1">${{ product.price }}</p>
+                            <p class="card-text mb-1"><b>Band</b>: {{ product.band }}</p>
+                            <p class="card-text mb-1"><b>Color</b>: {{ product.color }}</p>
+                            <p class="card-text mb-1"><b>Description</b>: {{ product.description }}</p>
+                            <p class="card-text mb-1"><b>Price</b>: {{ product.price }}$</p>
+                            <p class="card-text mb-1"><b>Stock</b>: {{ product.stock }}</p>
                           </div>
                           <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <!-- <p class="card-text mb-0">Stock: {{ product.stock }}</p> -->
                   </div>
                 </div>
               </div>

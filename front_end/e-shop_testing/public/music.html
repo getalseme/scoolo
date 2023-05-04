@@ -36,34 +36,52 @@
               </nav>
         </header>
 
+        <!-- PAGE TITLE -->
+        <div class="pageTitle"><b>Music</b></div>
+
         <div id="underHeader">
-            <div id="app" style="margin-left: 7%;">
-              <!-- 
-              <div class="sort-container mb-3">
-                <label for="sort-by" class="me-2">Sort by:</label>
-                <select id="sort-by" v-model="sortBy" @change="sortProducts">
-                  <option value="artist_asc">Artist (A-Z)</option>
-                  <option value="artist_desc">Artist (Z-A)</option>
-                  <option value="price_asc">Price (Low to High)</option>
-                  <option value="price_desc">Price (High to Low)</option>
-                </select>
-              </div>
-            -->
-              <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col mb-3" v-for="product in products">
-                  <div class="card h-100" style="width: 16rem; background-color: rgba(150, 150, 150, 0.8);">
-                    <img class="card-img-top img-fluid" :src="product.pictures" style="height: 16rem; object-fit: cover;">
-                    <div class="card-body">
-                      <h5 class="card-title">{{ product.name }}</h5>
-                      <p class="card-text mb-1">{{ product.band }}</p>
-                      <p class="card-text mb-1">${{ product.price }}</p>
-                      <!-- <p class="card-text mb-0">Stock: {{ product.stock }}</p> -->
+          <div id="app">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              <div class="col mb-3" v-for="(product, index) in products">
+                <div class="card h-100" style="width: 17rem; background-color: rgba(150, 150, 150, 0.8);">
+                  <img class="card-img-top img-fluid" :src="product.pictures" style="height: 16rem; object-fit: cover;">
+                  <div class="card-body">
+                    <h5 class="card-title">{{ product.name }}</h5>
+                    <p class="card-text mb-1">{{ product.band }}</p>
+                    <button type="button" class="btn btn-dark" data-toggle="modal" :data-target="'#exampleModal-' + index">
+                      <i>info</i>
+                    </button>
+                    <div class="modal fade" :id="'exampleModal-' + index" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content bg-fusion-900 text-white">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">{{ product.name }}</h5>
+                          </div>
+                          <div class="modal-body">
+                            <p class="card-text mb-2"><b>Band</b>: {{ product.band }}</p>
+                            <p class="card-text mb-2">
+                              <b>Tracklist</b>: 
+                              <ol>
+                                <li v-for="(title, index) in product.tracklist">
+                                  {{ title }} 
+                                </li>
+                              </ol>
+                            </p>
+                            <p class="card-text mb-2"><b>Price</b>: {{ product.price }}$</p>
+                            <p class="card-text mb-2"><b>Stock</b>: {{ product.stock }}</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div> 
-          </div>
-          <script src="app_music.js"></script>   
+            </div>
+          </div> 
+        </div>
+        <script src="app_music.js"></script>  
     </body>
 </html>
