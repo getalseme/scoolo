@@ -9,7 +9,6 @@ var app = new Vue({
         type: 'GET',
         dataType: 'json',
         success: function(data) {
-          // Do something with the data
           console.log(data);
           app.products = data;
         },
@@ -17,5 +16,29 @@ var app = new Vue({
           console.log(`Error loading file: ${textStatus} - ${errorThrown}`);
         }
       });
+    },
+    methods: {
+      sortProductsBy: function (sortBy, sortOrder) {
+        var orderModifier = sortOrder === 'desc' ? -1 : 1;
+        switch (sortBy) {
+          case 'price':
+            this.products.sort((a, b) => (a.price - b.price) * orderModifier);
+            break;
+          case 'name':
+            this.products.sort((a, b) => (a.name.localeCompare(b.name)) * orderModifier);
+            break;
+          case 'band':
+            this.products.sort((a, b) => (a.band.localeCompare(b.band)) * orderModifier);
+            break;
+          case 'stock':
+            this.products.sort((a, b) => (a.stock - b.stock) * orderModifier);
+            break;
+          case 'year':
+            this.products.sort((a, b) => (a.year - b.year) * orderModifier);
+            break;
+          default:
+            break;
+        }
+      }
     }
   });

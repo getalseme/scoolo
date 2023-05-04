@@ -133,5 +133,47 @@
             "price": 10.00,
             "stock": 34,
             "pictures": "./img/music/ducks_cassette.jpg"
+        },
+        {
+            "name": "Carbocatione - CD",
+            "year": 1997,
+            "format":"cd",
+            "tracklist": [
+                "Carbocatione",
+                "Sapore di male",
+                "I ragazzi della via Glock"
+            ],
+            "band": "Cirrosix",
+            "price": 10.00,
+            "stock": 1,
+            "pictures": "./img/music/cirrosix_cd.jpg"
+        },
+        {
+            "name": "Carbocatione - Vinile",
+            "year": 1997,
+            "format":"vinyl",
+            "tracklist": [
+                "Carbocatione",
+                "Sapore di male",
+                "I ragazzi della via Glock"
+            ],
+            "band": "Cirrosix",
+            "price": 33.00,
+            "stock": 20,
+            "pictures": "./img/music/cirrosix_vinyl.jpg"
+        },
+        {
+            "name": "Carbocatione - Cassette",
+            "year": 1997,
+            "format":"cassette",
+            "tracklist": [
+                "Carbocatione",
+                "Sapore di male",
+                "I ragazzi della via Glock"
+            ],
+            "band": "Cirrosix",
+            "price": 9.00,
+            "stock": 64,
+            "pictures": "./img/music/cirrosix_cassette.jpg"
         }
 ]

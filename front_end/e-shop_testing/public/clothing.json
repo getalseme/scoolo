@@ -16,7 +16,7 @@
             "band": "Verdesca",
             "color": "black",
             "price": 15.00,
-            "stock": 13,
+            "stock": 14,
             "pictures": [
                 "./img/clothing/t-shirt_verdesca_black.jpg"
             ]
@@ -38,7 +38,7 @@
             "band": "Verdesca",
             "color": "green",
             "price": 15.00,
-            "stock": 7,
+            "stock": 8,
             "pictures": [
                 "./img/clothing/t-shirt_verdesca_green.jpg"
             ]
@@ -49,7 +49,7 @@
             "band": "Verdesca",
             "color": "blue",
             "price": 15.00,
-            "stock": 7,
+            "stock": 9,
             "pictures": [
                 "./img/clothing/t-shirt_verdesca_blue.jpg"
             ]
@@ -71,7 +71,7 @@
             "band": "Latte+",
             "color": "green",
             "price": 17.90,
-            "stock": 3,
+            "stock": 10,
             "pictures": [
                 "./img/clothing/t-shirt_latte+_green.JPG"
             ]
@@ -82,7 +82,7 @@
             "band": "Latte+",
             "color": "red",
             "price": 17.90,
-            "stock": 3,
+            "stock": 1,
             "pictures": [
                 "./img/clothing/t-shirt_latte+_red.JPG"
             ]
@@ -93,7 +93,7 @@
             "band": "Latte+",
             "color": "blue",
             "price": 17.90,
-            "stock": 3,
+            "stock": 2,
             "pictures": [
                 "./img/clothing/t-shirt_latte+_blue.JPG"
             ]
@@ -104,7 +104,7 @@
             "band": "Latte+",
             "color":"white",
             "price": 17.90,
-            "stock": 3,
+            "stock": 4,
             "pictures": [
                 "./img/clothing/t-shirt_latte+_white.JPG"
             ]
@@ -126,7 +126,7 @@
             "band": "Duck's dookie",
             "color":"red",
             "price": 15.00,
-            "stock": 11,
+            "stock": 10,
             "pictures": [
                 "./img/clothing/t-shirt_ducks_red.jpg"
             ]
@@ -137,7 +137,7 @@
             "band": "Duck's dookie",
             "color":"blue",
             "price": 15.00,
-            "stock": 11,
+            "stock": 12,
             "pictures": [
                 "./img/clothing/t-shirt_ducks_blue.jpg"
             ]
@@ -148,7 +148,7 @@
             "band": "Duck's dookie",
             "color":"white",
             "price": 15.00,
-            "stock": 11,
+            "stock": 15,
             "pictures": [
                 "./img/clothing/t-shirt_ducks_white.jpg"
             ]
@@ -159,7 +159,7 @@
             "band": "Duck's dookie",
             "color":"green",
             "price": 15.00,
-            "stock": 11,
+            "stock": 16,
             "pictures": [
                 "./img/clothing/t-shirt_ducks_green.jpg"
             ]
@@ -170,7 +170,7 @@
             "band": "Verdesca",
             "color":"gray",
             "price": 30.00,
-            "stock": 3,
+            "stock": 21,
             "pictures": [
                 "./img/clothing/hoodie_verdesca_gray.jpg"
             ]
@@ -181,7 +181,7 @@
             "band": "Verdesca",
             "color":"blue",
             "price": 30.00,
-            "stock": 3,
+            "stock": 34,
             "pictures": [
                 "./img/clothing/hoodie_verdesca_blue.jpg"
             ]
@@ -192,7 +192,7 @@
             "band": "Verdesca",
             "color":"red",
             "price": 30.00,
-            "stock": 3,
+            "stock": 98,
             "pictures": [
                 "./img/clothing/hoodie_verdesca_red.jpg"
             ]
@@ -203,7 +203,7 @@
             "band": "Verdesca",
             "color":"black",
             "price": 30.00,
-            "stock": 3,
+            "stock": 29,
             "pictures": [
                 "./img/clothing/hoodie_verdesca_black.jpg"
             ]
@@ -214,7 +214,7 @@
             "band": "Duck's dookie",
             "color":"black",
             "price": 30.00,
-            "stock": 3,
+            "stock": 33,
             "pictures": [
                 "./img/clothing/hoodie_ducks_black.jpg"
             ]
@@ -225,7 +225,7 @@
             "band": "Duck's dookie",
             "color":"red",
             "price": 30.00,
-            "stock": 3,
+            "stock": 37,
             "pictures": [
                 "./img/clothing/hoodie_ducks_red.jpg"
             ]
@@ -236,7 +236,7 @@
             "band": "Duck's dookie",
             "color":"blue",
             "price": 30.00,
-            "stock": 3,
+            "stock": 76,
             "pictures": [
                 "./img/clothing/hoodie_ducks_blue.jpg"
             ]
@@ -247,7 +247,7 @@
             "band": "Duck's dookie",
             "color":"gray",
             "price": 30.00,
-            "stock": 3,
+            "stock": 92,
             "pictures": [
                 "./img/clothing/hoodie_ducks_gray.jpg"
             ]
