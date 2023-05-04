@@ -166,7 +166,7 @@
         },
         {
             "name": "Hoodie grigia Verdesca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Verdesca",
             "color":"gray",
             "price": 30.00,
@@ -177,7 +177,7 @@
         },
         {
             "name": "Hoodie blu Verdesca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Verdesca",
             "color":"blue",
             "price": 30.00,
@@ -188,7 +188,7 @@
         },
         {
             "name": "Hoodie red Verdesca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Verdesca",
             "color":"red",
             "price": 30.00,
@@ -199,7 +199,7 @@
         },
         {
             "name": "Hoodie nera Verdesca",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Verdesca",
             "color":"black",
             "price": 30.00,
@@ -210,7 +210,7 @@
         },
         {
             "name": "Hoodie nera Duck's dookie",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Duck's dookie",
             "color":"black",
             "price": 30.00,
@@ -221,7 +221,7 @@
         },
         {
             "name": "Hoodie red Duck's dookie",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Duck's dookie",
             "color":"red",
             "price": 30.00,
@@ -232,7 +232,7 @@
         },
         {
             "name": "Hoodie blu Duck's dookie",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Duck's dookie",
             "color":"blue",
             "price": 30.00,
@@ -243,13 +243,90 @@
         },
         {
             "name": "Hoodie grigia Duck's dookie",
-            "description": "T-shirt 100% cotone con stampa serigrafata",
+            "description": "T-shirt 100% cotone con stampa serigrafata (anche se questa è una felpa)",
             "band": "Duck's dookie",
             "color":"gray",
             "price": 30.00,
             "stock": 92,
             "pictures": [
                 "./img/clothing/hoodie_ducks_gray.jpg"
+            ]
+        },
+        {
+            "name": "Cappello nero Duck's dookie",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Duck's dookie",
+            "color":"black",
+            "price": 12.00,
+            "stock": 52,
+            "pictures": [
+                "./img/clothing/cap_ducks_black.jpg"
+            ]
+        },
+        {
+            "name": "Cappello rosso Duck's dookie",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Duck's dookie",
+            "color":"red",
+            "price": 12.00,
+            "stock": 48,
+            "pictures": [
+                "./img/clothing/cap_ducks_red.jpg"
+            ]
+        },
+        {
+            "name": "Cappello nero Latte+",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Latte+",
+            "color":"black",
+            "price": 8.00,
+            "stock": 32,
+            "pictures": [
+                "./img/clothing/cap_latte+_black.jpg"
+            ]
+        },
+        {
+            "name": "Cappello rosso Latte+",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Latte+",
+            "color":"red",
+            "price": 10.00,
+            "stock": 15,
+            "pictures": [
+                "./img/clothing/cap_latte+_red.jpg"
+            ]
+        },
+        {
+            "name": "Cappello bianco Latte+",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Latte+",
+            "color":"white",
+            "price": 15.00,
+            "stock": 85,
+            "pictures": [
+                "./img/clothing/cap_latte+_white.jpg"
+            ]
+        },
+        {
+            "name": "Cappello nero Verdesca",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Verdesca",
+            "color":"black",
+            "price": 10.00,
+            "stock": 64,
+            "pictures": [
+                "./img/clothing/cap_verdesca_black.jpg"
+            ]
+        },
+        {
+            "name": "Cappello rosso Verdesca",
+            "description": "Cappello orribile con stampa altrettanto orribile",
+            "band": "Verdesca",
+            "color":"red",
+            "price": 10.00,
+            "stock": 87,
+            "pictures": [
+                "./img/clothing/cap_verdesca_red.jpg"
             ]
         }
 ]
