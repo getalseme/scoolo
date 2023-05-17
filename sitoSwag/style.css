@@ -1,68 +1,163 @@
-body{
+body {
     background-image: url("./img/back.jpg");
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
-#body_cont{
-    margin-left: 25vw;
-    width: 50vw;
-    padding: 3px;
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-}
-
-.title{
-    width: 98.5%;
-    height: 100%;
-    vertical-align: middle;
-    background-color: rgb(255, 134, 215); 
-    border: 5px solid rgb(126, 0, 94); 
-}
-
-.title h2{
-    top: 0px;
-    left: 35%;
-    text-align: center;
-    font-size: 40px;
-    position: absolute;
-}
-
-.menu_button{
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     height: 80px;
-    width: 80px;
-    cursor: pointer;
-    background-color: rgb(255, 148, 219); 
-    border-right:5px solid rgb(126, 0, 94); 
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
+    background-color: rgb(255, 134, 215);
+    border: 5px solid rgb(126, 0, 94);
+    z-index: 10;
 }
 
-.button_img{
+.title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu_button {
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    background-color: rgb(255, 148, 219);
+    border-right: 5px solid rgb(126, 0, 94);
+    border-top: 5px solid rgb(126, 0, 94);
+    border-left: 5px solid rgb(126, 0, 94);
+    border-bottom: 5px solid rgb(126, 0, 94);
+    position: fixed;
+    top: 0;
+    left: 0; /* Position the menu_button at the top left corner */
+}
+
+.button_img {
     max-width: 100%;
     max-height: 100%;
 }
 
-#menu{
+#menu a {
+    text-decoration: none;
+}
+
+#menu {
     display: none;
-    width: auto;
-    position: absolute;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
     z-index: 9;
 }
 
-
-#menu button{
-    background-color: rgb(255, 49, 186); 
-    border: 1px solid rgb(126, 0, 94); 
-    color: rgb(255, 255, 255); 
-    padding: 10px 24px; 
+#menu button {
+    width: 100%;
+    padding: 10px 24px;
+    background-color: rgb(255, 49, 186);
+    border: 1px solid rgb(126, 0, 94);
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    width: 50%; 
-    display: block; 
+    display: block; /* Display the buttons as block elements */
+    text-align: left; /* Align the text inside the buttons to the left */
 }
 
-#menu button:hover{
-    background-color: rgb(182, 0, 121); 
+#menu button:hover {
+    background-color: rgb(182, 0, 121);
 }
+
+#body_cont {
+    margin-top: 100px;
+    margin-left: 2vw;
+    width: 90vw;
+    padding: 10px;
+}
+
+#intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-image {
+    max-width: 30vw;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+
+.text-content {
+    max-width: 45%;
+    margin-top: 10vh;
+}
+
+.text-content p{
+    font-size: 18px;
+}
+
+.song-cont {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+
+.song-cont > div {
+    flex: 1;
+}
+
+.song-title {
+    text-align: center;
+}
+
+.lyrics {
+    height: 300px;
+    overflow: auto;
+    margin-left: 20px;
+    text-align: center;
+    word-break: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Garuda, Verdana, Tahoma, sans-serif;
+    font-weight: 100;
+}
+
+
+.membership-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.membership-form label {
+    font-size: 20px; 
+    margin-bottom: 5px;
+}
+
+.membership-form input[type="text"],
+.membership-form input[type="email"] {
+    font-size: 18px; 
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.membership-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.membership-form input[type="submit"] {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(182, 0, 121);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
