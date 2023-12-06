@@ -22,7 +22,7 @@ class ClientGame{
   bool _playing = false;
   bool _isTurn = false;
   bool _finish = false;
-  bool _win = true;
+  bool _win = false;
 
   String startMessage = '';
 
@@ -435,8 +435,7 @@ class _BattleshipGameState extends State<BattleshipGame> {
                   ),
                 ),
               ),
-            if(cg._finish)
-              if(cg._win)
+            if(cg._finish && cg._win)
                 Container(
                   color: Colors.black54, // Sfondo scuro per il popup
                   child: const Center(
@@ -452,7 +451,7 @@ class _BattleshipGameState extends State<BattleshipGame> {
                     ),
                   ),
                 ),
-              if(!cg._win)
+            if(cg._finish && !cg._win)
                 Container(
                   color: Colors.black54, // Sfondo scuro per il popup
                   child: const Center(

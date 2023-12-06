@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'land.dart';
 
 // USE also netcat 127.0.0.1 3000SHOW
 
@@ -175,7 +176,8 @@ class Client {
   bool isPlaying = false;
   bool ready = false;
   bool isTurn = false;
-  var _clientLand = List<List>.generate(10, (i) => List<Landpiece>.generate(10, (index) => Landpiece(), growable: false), growable: false);
+  Land _land = Land();
+
   List<int> ships = [2, 3, 3, 4, 5];
 
   static final int maxHit = 17;
@@ -195,23 +197,13 @@ class Client {
 
   void printClientLand(){
     String mes = 'MAP\n';
-    for(int i = 0; i < 10; i++){
-      for(int j = 0; j < 9; j++){
-        mes += (_clientLand[i][j].personalString() + '-');
-      }
-      mes += (_clientLand[i][9].personalString() + '\n');
-    }
+    
     _socket.write(mes + '\t');
   }
 
   void printOpponentLand(){
     String mes = 'MAP OP\n';
-    for(int i = 0; i < 10; i++){
-      for(int j = 0; j < 9; j++){
-        mes += (opponent.getLand()[i][j].toString() + '-');
-      }
-      mes += (opponent.getLand()[i][9].toString() + '\n');
-    }
+    
     _socket.write(mes + '\t');
   }
 
@@ -219,8 +211,8 @@ class Client {
     return _n.toString();
   }
 
-  List<List<dynamic>> getLand(){
-    return _clientLand;
+  Land getLand(){
+    return _land;
   }
 
   void messageHandler(data){
@@ -240,7 +232,7 @@ class Client {
     if(isPlaying && isTurn){
       List<String> messages = message.split(' ');
       if(checkMessageAttack(messages)){
-        if(opponent.getLand()[int.parse(messages[1])][int.parse(messages[0])].getTake()){
+        if(opponent.getLand().getPointTake(int.parse(messages[1]), int.parse(messages[0]))){
           _socket.write('HIT\t');
           opponent.write('HITTED\t');
           opponent.hit += 1;
@@ -256,7 +248,7 @@ class Client {
           _socket.write('MISS\t');
           opponent.write('MISSED\t');
         }
-        opponent.getLand()[int.parse(messages[1])][int.parse(messages[0])].setHit();
+        opponent.getLand().setPointHit(int.parse(messages[1]), int.parse(messages[0]));
         isTurn = false;
         _socket.write('W_TURN\t');
         opponent.isTurn = true;
@@ -275,11 +267,11 @@ class Client {
         ships.remove(int.parse(messages[2]));
         if(messages[3].toUpperCase() == 'ORI'){
           for(int i = int.parse(messages[0]); i < (int.parse(messages[0]) + int.parse(messages[2])); i++){
-            _clientLand[int.parse(messages[1])][i].setTake();
+            _land.setPointTake(int.parse(messages[1]), i);
           }
         }else{
           for(int i = int.parse(messages[1]); i < (int.parse(messages[1]) + int.parse(messages[2])); i++){
-            _clientLand[i][int.parse(messages[0])].setTake();
+            _land.setPointTake(i, int.parse(messages[0]));
           }
         }
         _socket.write('OK\t');
@@ -302,7 +294,7 @@ class Client {
       print('attack no correct');
       return false;
     }else{
-      if(opponent.getLand()[int.parse(message[1])][int.parse(message[0])].getHit() == false){
+      if(opponent.getLand().getPointHit(int.parse(message[1]), int.parse(message[0])) == false){
         return true;
       }
       print('already attacked');
@@ -328,7 +320,7 @@ class Client {
               return false;
             }else{
               for(int i = int.parse(message[0]); i < total; i++){
-                if(_clientLand[int.parse(message[1])][i].getTake()){
+                if(_land.getPointTake(int.parse(message[1]), i)){
                   return false;
                 }
               }
@@ -340,7 +332,7 @@ class Client {
               return false;
             }else{
               for(int i = int.parse(message[1]); i < total; i++){
-                if(_clientLand[i][int.parse(message[0])].getTake()){
+                if(_land.getPointTake(i, int.parse(message[0]))){
                   return false;
                 }
               }
